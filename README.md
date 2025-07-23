@@ -6,8 +6,8 @@ I'm Zach, a Business Improvement Specialist transitioning into a Data Analyst ro
 
 | Project | Summary | Tools |
 |--------|---------|-------|
-| [Data Cleaning and EDA](./data-cleaning-project) | Cleaned and explored an extremely messy dataset to extract insight and prepare for modeling | Python, Pandas, Jupyter |
-| [Rota Automation and Dashboard](./rota-automation) | Automated rota planning and created a Power BI dashboard for visibility | Python, PowerAutomate, Excel, Power BI |
+| [Data Cleaning and EDA](./Data-Cleaning-Project) | Cleaned and explored an extremely messy dataset to extract insight and prepare for modeling | Python, Pandas, Jupyter |
+| [Rota Automation and Dashboard](./Rota-Automation) | Automated rota planning and created a Power BI dashboard for visibility | Python, PowerAutomate, Excel, Power BI |
 
 > More projects coming soon.
 
