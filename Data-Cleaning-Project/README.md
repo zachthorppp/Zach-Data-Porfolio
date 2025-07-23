@@ -59,22 +59,12 @@ Data-Cleaning-Project/
 
 ## Key Visuals
 
-- ![Box Plot Example](Box Plot Example .png)
-- ![Correlation Matrix](Correlation Matrixx.png)
-- ![PairPlot](Exploratory PairPlot Analysis.png)
-- ![Categorical Analysis](Categorical Analysis Example.png)
-- ![Cleaning Activities](Cleaning Activities Identification.png)
-- ![Feature Importance](Random Forest Feature Selection.png)
-
-## Rota Dashboard Visuals
-
-> Dummy names were removed from the images below for confidentiality.
-
-### Rota Dashboard View (Week Overview)
-![Rota Dashboard](07550e09-a688-48ee-be3f-196376be75b6.png)
-
-### Shift Assignment Analysis
-![Shift Assignment](0ae336cc-7273-4cae-8837-8c307b23ac44.png)
+- ![Box Plot Example](Visuals/Box%20Plot%20Example.png)
+- ![Correlation Matrix](Visuals/Correlation%20Matrixx.png)
+- ![PairPlot](Visuals/Exploratory%20PairPlot%20Analysis.png)
+- ![Categorical Analysis](Visuals/Categorical%20Analysis%20Example.png)
+- ![Cleaning Activities](Visuals/Cleaning%20Activities%20Identification.png)
+- ![Feature Importance](Visuals/Random%20Forest%20Feature%20Selection.png)
 
 ## Outcome
 This project reinforced my understanding of practical data preparation and highlighted the importance of thorough EDA in shaping future modelling decisions. It would be a foundational step in a machine learning pipeline.
