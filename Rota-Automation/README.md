@@ -1,90 +1,74 @@
-*Rota Automation with Python, Power BI, and Power Platform**
+# Rota Automation with Python, Power BI, and Power Platform
 
+> **Project Type:** Scheduling Automation and Dashboarding  
+> **Tools Used:** Python, Excel, Power BI, Power Automate, Power Apps
 
-**Overview**
+---
 
-This project automates the creation of staff rotas based on a set of business constraints such as rest days, fair shift distribution, and weekend coverage. Originally a time-consuming manual task, the new system I developed saves 0.7 FTE in manager time and improves clarity and access through visual dashboards.
+## Overview
 
-The rota is generated using a Python script, exported to Excel via a PowerAutomate flow, and visualised through an interactive Power BI dashboard, which is embedded in PowerApps to allow users to easily view shift patterns and summaries.
+This project automates staff rota generation using Python and integrates it with the Microsoft Power Platform for seamless distribution and reporting. The solution replaces a manual process that previously required significant manager time and effort, saving approximately **0.7 FTE**. It supports fair shift distribution, weekend coverage, and flexible holiday input.
 
+The rota is created based on key constraints and delivered as an Excel file. It’s then visualised in **Power BI** and surfaced via **Power Apps** to make it easily accessible to staff and managers.
 
-**Tools \& Technologies**
+---
 
-\- Python – rota generation logic and excel output
+## Workflow
 
-\- Pandas – data handling
+1. **Trigger**: Rota generation starts via Power Automate (either manually or through uploaded holiday data).
+2. **Azure Function Call**: Sends holiday and staff inputs to a hosted Python rota generator.
+3. **Rota Creation**: Python logic calculates shift assignments while balancing fairness, rest days, and skill needs.
+4. **Export**: The result is sent back as JSON and converted to Excel by Power Automate.
+5. **Visualisation**: Power BI pulls from Excel to build rota dashboards.
+6. **Access**: Dashboards are embedded in Power Apps for easy team-wide access.
 
-\- Excel – data input/output for Power BI
+---
 
-\- Power BI – visualisation of shift patterns and summaries
+## File Structure
 
-\- Power Automate – trigger the flow and produce JSON output
+Rota-Automation/
+├── Complex Rota Solution.ipynb # Python logic in notebook format
+├── rota_data.xlsx # Example rota input/output file
+├── Visuals/
+│ ├── dashboard_screenshot.png # Power BI dashboard example
+│ └── rota_sample_output.png # Generated rota preview
+└── README.md # Project overview
 
+---
 
-**Workflow**
+## 📷 Visuals
 
-1\. Triggered in PowerAutomate/Apps by Holiday uploads or manual trigger
+> *(Sample screenshots only – live dashboards are sensitive)*
 
-2\. POST to Azure Functions with Holiday information as the body
+### Rota Dashboard View  
+![Dashboard](./Visuals/dashboard_screenshot.png)
 
-3\. Creates the rota pattern and produces back a JSON
+### Rota Output Sample  
+![Rota Output](./Visuals/rota_sample_output.png)
 
-4\. JSON converted to excel in PowerAutomate
+---
 
-5\. PowerBI uses data to build report
+## Key Features
 
-6\. PowerBI refreshes and teams use the PowerBI report 
+- **Automated rota generation** – handles custom business constraints (fairness, weekends, rest days).
+- **Power BI dashboard** – visualises shifts per person and per day, making planning transparent.
+- **Power Platform integration** – built for real-time updates via Power Automate and Power Apps.
+- **Reusable and scalable** – can adapt to other departments or rota rules.
 
+---
 
-**File Structure for portfolio to share example**
+## Business Impact
 
-rota-automation/
+- Saved ~0.7 FTE of manual effort  
+- Improved shift fairness and visibility  
+- Enabled repeatable, auditable rota generation  
+- Encouraged data-led, automated planning processes
 
-├── complex_rota_solution.py   # Main script for rota logic         
+---
 
-├── rota_data.xlsx             # Example of a generated rota data table
+## What I Learned
 
-├── visuals/
-
-│   ├── dashboard\_screenshot.png
-
-│   └── rota.xlsx
-
-└── README.md                   # Project overview (this file)
-
-
-**Dashboard Highlights**
-
-The Power BI dashboard includes:
-
-\- Daily shift coverage overview
-
-\- Shift summary per person (total shifts, weekends, rest days)
-
-
-**Key Features**
-
-\- Automated rota creation with constraint handling
-
-\- Dynamic visual summaries for shift fairness and coverage
-
-\- Eliminates manual scheduling work
-
-\- Enables clear communication through integrated tools
-
-
-**Business Impact**
-
-\- Saved approx. 0.7 FTE in manager capacity
-
-\- Improved accuracy, fairness, and transparency
-
-\- Enabled repeatable, auditable process
-
-\- Supported cultural shift toward data-led planning
-
-
-
-
-
-
+- Writing robust, rule-based scheduling logic in Python
+- Designing Excel-compatible JSON workflows for Power Automate
+- Visualising operational data effectively in Power BI
+- Building tools that support actual users with clear time-saving results
