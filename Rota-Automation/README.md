@@ -25,15 +25,8 @@ The rota is created based on key constraints and delivered as an Excel file. It�
 ---
 
 ## File Structure
-
-Rota-Automation/
-├── Complex Rota Solution.ipynb # Python logic in notebook format
-├── rota_data.xlsx # Example rota input/output file
-├── Visuals/
-│ ├── dashboard_screenshot.png # Power BI dashboard example
-│ └── rota_sample_output.png # Generated rota preview
-└── README.md # Project overview
-
+<pre lang="markdown"> ## File Structure ``` Rota-Automation/ ├── Complex Rota Solution.ipynb # Python logic for rota scheduling ├── rota_data.xlsx # Output data from code └── Visuals/ # Visual outputs (Power BI) ├── dashboard_screenshot_1.png # Dashboard view 1 ├── dashboard_screenshot_2.png # Dashboard view 2 └── rota.xlsx # Excel output converted into rota solution ``` </pre>
+    
 ---
 
 ## 📷 Visuals
