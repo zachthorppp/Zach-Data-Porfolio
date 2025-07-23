@@ -36,7 +36,6 @@ Rota-Automation/
     └── rota.xlsx                       # Excel output converted into visual rota solution
 ```
     
----
 
 ## 📷 Visuals
 
