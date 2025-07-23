@@ -43,10 +43,11 @@ Rota-Automation/
 > *(Sample screenshots only – live dashboards are sensitive)*
 
 ### Rota Dashboard View  
-![Dashboard](./Visuals/dashboard_screenshot.png)
+![Dashboard](./Visuals/dashboard_screenshot_1.png)
+![Dashboard](./Visuals/dashboard_screenshot_2.png)
 
 ### Rota Output Sample  
-![Rota Output](./Visuals/rota_sample_output.png)
+![Rota Output](./Visuals/rota.xlsx)
 
 ---
 
