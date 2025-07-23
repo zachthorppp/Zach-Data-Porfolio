@@ -59,12 +59,13 @@ Data-Cleaning-Project/
 
 ## Key Visuals
 
-- ![Box Plot Example](Visuals/Box%20Plot%20Example.png)
-- ![Correlation Matrix](Visuals/Correlation%20Matrixx.png)
-- ![PairPlot](Visuals/Exploratory%20PairPlot%20Analysis.png)
-- ![Categorical Analysis](Visuals/Categorical%20Analysis%20Example.png)
-- ![Cleaning Activities](Visuals/Cleaning%20Activities%20Identification.png)
-- ![Feature Importance](Visuals/Random%20Forest%20Feature%20Selection.png)
+- [Box Plot Example](Visuals/Box%20Plot%20Example.png)
+- [Correlation Matrix](Visuals/Correlation%20Matrixx.png)
+- [PairPlot](Visuals/Exploratory%20PairPlot%20Analysis.png)
+- [Categorical Analysis](Visuals/Categorical%20Analysis%20Example.png)
+- [Cleaning Activities](Visuals/Cleaning%20Activities%20Identification.png)
+- [Feature Importance](Visuals/Random%20Forest%20Feature%20Selection.png)
+
 
 ## Outcome
 This project reinforced my understanding of practical data preparation and highlighted the importance of thorough EDA in shaping future modelling decisions. It would be a foundational step in a machine learning pipeline.
