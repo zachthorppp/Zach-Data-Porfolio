@@ -40,11 +40,19 @@ Rota-Automation/
 
 ## 📷 Visuals
 
-> *(Sample screenshots only – live dashboards are sensitive)*
+## Visuals
 
-### Rota Dashboard View  
-![Dashboard](./Visuals/dashboard_screenshot_1.png)
-![Dashboard](./Visuals/dashboard_screenshot_2.png)
+*(Sample screenshots only – live dashboards are sensitive)*
+
+### Rota Dashboard View
+
+![Rota Dashboard View](Visuals/dashboard_screenshot_1.png)
+
+### Shift Assignment Analysis
+
+![Shift Assignment Analysis](Visuals/dashboard_screenshot_2.png)
+
+> **Note:** Dummy names have been removed from both screenshots. Shift patterns defined are not the finalised shift patterns in the finished solution.
 
 ### Rota Output Sample  
 ![Rota Output](./Visuals/rota.xlsx)
