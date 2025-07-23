@@ -33,7 +33,7 @@ Rota-Automation/
 └── Visuals/                            # Visual outputs (Power BI)
     ├── dashboard_screenshot_1.png     # Dashboard view 1
     ├── dashboard_screenshot_2.png     # Dashboard view 2
-    └── rota.xlsx                       # Excel output converted into rota solution
+    └── rota.xlsx                       # Excel output converted into visual rota solution
 ```
     
 ---
