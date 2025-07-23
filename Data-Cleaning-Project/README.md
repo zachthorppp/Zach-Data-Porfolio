@@ -17,13 +17,17 @@ To demonstrate a structured, replicable approach to cleaning messy data and appl
 ## Folder Structure
 
 ```
-Rota-Automation/
-├── Complex Rota Solution.ipynb # Python logic for rota scheduling
-├── rota_data.xlsx # Output data from code
-└── Visuals/ # Visual outputs (Power BI)
-├── dashboard_screenshot_1.png # Dashboard view 1
-├── dashboard_screenshot_2.png # Dashboard view 2
-└── rota.xlsx # Excel output converted into rota solution
+Data-Cleaning-Project/
+├── Extensive Data Cleaning and EDA.ipynb               # Jupyter notebook with cleaning and EDA code
+├── README.md                                           # Project documentation
+└── Visuals/                                            # Supporting files and visualisations
+├── Box Plot Example .png                               # Box plot highlighting outliers
+├── Categorical Analysis Example.png                    # Visual analysis of categorical data
+├── Cleaning Activities Identification.png              # Annotated cleaning steps
+├── Correlation Matrixx.png                             # Heatmap showing variable correlations
+├── Exploratory PairPlot Analysis.png                   # Pairplot of key features
+├── MutliCollinearity Checking.xlsx                     # VIF/collinearity checks
+└── Random Forest Feature Selection.png                 # Feature importance ranking
 ```
 
 ## Process
