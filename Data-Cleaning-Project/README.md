@@ -14,6 +14,18 @@ To demonstrate a structured, replicable approach to cleaning messy data and appl
 - `missingno` for missing data analysis
 - `sklearn.preprocessing` for transformations
 
+## Folder Structure
+
+```
+Rota-Automation/
+├── Complex Rota Solution.ipynb # Python logic for rota scheduling
+├── rota_data.xlsx # Output data from code
+└── Visuals/ # Visual outputs (Power BI)
+├── dashboard_screenshot_1.png # Dashboard view 1
+├── dashboard_screenshot_2.png # Dashboard view 2
+└── rota.xlsx # Excel output converted into rota solution
+```
+
 ## Process
 
 ### 1. Data Inspection
